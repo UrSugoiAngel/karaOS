@@ -15,10 +15,21 @@ A 64-bit x86-64 microkernel built from first principles. Designed around absolut
 ## Building
 
 ```bash
-make iso
+make
 ```
 
 Outputs `bin/karaos` kernel image ready for ISO creation.
+<br>
+OR
+<br>
+
+```bash
+make iso
+```
+Installs to a bootable ISO. Must have limine built from source in ./limine.
+
+
+
 
 ## Architecture
 
